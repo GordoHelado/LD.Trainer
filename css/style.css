@@ -85,6 +85,8 @@ body{
 
 .navLinks li a:hover{
 	color: #2CB349;
+	cursor: pointer;
+	font-weight: 800;
 	
 }
 
@@ -131,6 +133,8 @@ tr:hover{
 
 .footer ul li a:hover{
 	color: #2CB349;
+	cursor: pointer;
+	font-weight: 800;
 
 
 }
