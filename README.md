@@ -1,2 +1,2 @@
 # LD.Trainer
-¡Hola! 
+¡Hola! Bienvenidos a mi proyecto LD.Trainer
