@@ -13,50 +13,60 @@
  </script>
 </head>
 
-<body>
+<body class=" d-flex flex-column min-vh-100 ">
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
- <nav class="navbar navbar-expand-lg navbar-dark bg-black position-sticky w-100 ps-1">
+ <nav class="navbar navbar-expand-lg w-100 sticky-top bg-black">
   <div class="container-fluid">
     <a class="navbar-brand" href="index.html">LD.TRAINER</a>
     
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler toggler-colour" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-
-    <div class="collapse navbar-collapse" id="navbarColor02">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-       <li class="nav-item">
-        <a class="nav-link" href="./pages/sobre_mi.html">Sobre mí</a>
-       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="./pages/horarios.html">Horarios</a>
-       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="./pages/planes.html">Planes</a>
-       </li>
-       <li class="nav-item">
-        <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-2" id="hover">
+        <li class="nav-item">
+         <a class="nav-link" aria-current="page" href="./pages/sobre_mi.html">Sobre mí</a>
+    	</li>
+        <li class="nav-item">
+         <a class="nav-link" href="./pages/horarios.html">Horarios</a>
+        <li class="nav-item">
+         <a class="nav-link " aria-current="page" href="./pages/planes.html">Planes</a>
+    	</li>
+        <li class="nav-item">
+         <a class="nav-link" href="./pages/contacto.html">Contacto</a>
         </li>
+        
       </ul>
+      
     </div>
+  
   </div>
 </nav>
-
-<header>
-
-  </header>
-
+	
 <main>
-   <h1 class="text-center">Programas de PERSONAL TRAINING</h1>
-   <section class="container-fluid row mx-auto my-1">
-    <Article class="col-sm-12 col-md-6 col-lg-3 d-flex w-100 ps-1 "> 
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/DtwrkfDEDzw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-     <p class="text-start mx-1">No importa cuáles sean tus metas, tengo un programa de entrenamiento personal para vos. Siempre abierto a modificar y ajustar formas de entrenar en función de tus necesidades.
-     </p> 
-    </section>
-    
-    <h3 class="text-center">¿Seguís con dudas? Éstos son algunos de los testimonios de las personas que han confiado en mí para entrenar.</h3>
+  <h1 class="py-2 text-center animate__animated animate__bounceIn">Programas de Personal Training</h1>
+<div class="card mx-auto my-2 w-75" >
+  <div class="row px-2 py-2">
+    <div class="col-4">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DtwrkfDEDzw" class="img-fluid rounded-start" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col-8">
+      <div class="card-body">
+      
+        <p class="card-text">No importa cuáles sean tus metas, tengo un programa de entrenamiento personal para vos.</p>
+         <p class="card-text">Siempre abierto a modificar y ajustar formas de entrenar en función de tus necesidades.</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+	<h3 class="text-center">¿Dudas? Algunas personas que han confiado en mí para entrenar dicen lo siguiente</h3>
+
+
+
 
    <section class="container-fluid row" >
      <Article class="col-sm-12 col-md-6 col-lg-3 d-flex flex-column justify-content-center"> 
@@ -81,38 +91,49 @@
      </Article>
    </section>
 
-    
+   <footer class="mt-auto">
+      <div class="container-fluid row bg-black">
+       <section class="mb-4 text-center">
+        <div class="d-block justify-content-center align-items-center"><h4>
+         Seguime en las redes sociales</h4>
+        <a href="https://www.facebook.com/diego.luberriaga" target="_blank"><img class="img-sm px-2" src="./img/logo_facebook.png"
+          alt="Facebook"></a>
+         <a href="https://www.instagram.com/l.dtrainer/" target="_blank"><img class="img-sm px-2" src="./img/logo_instagram.png"
+          alt="Instagram"></a>
+         <a href="https://wa.me/5492342456768" target="_blank"><img class="img-sm px-2" src="./img/logo_whatsapp.jfif" alt="Whatsapp"></a>
+        </div>
       
-    
+       
 
-</main>
-
-
-<footer>
- <nav class="navbar navbar-expand-lg navbar-dark bg-black w-100 ps-1">
-  <div class="d-flex flex-column justify-content-center">
      
-      <ul class="navbar-nav mb-2 mb-lg-0 justify-content-center">
-        <li class="nav-item">
-        <a class="nav-link" href="../pages/sobre_mi.html">Conoceme</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="../pages/horarios.html">Conoce los horarios</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="../pages/planes.html">Conoce los planes</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="../pages/contacto.html">¿Dudas? Escribime</a>
-        </li>
-      </ul>
+       <nav class="navbar navbar-expand-lg w-100 bg-black text-center text-lg-start">
+         <div class="container-fluid">
+           <ul class="navbar-nav mx-auto mb-1 mb-lg-0 px-2" id="hover">
+           <li class="nav-item">
+           <a class="nav-link" aria-current="page" href="./pages/sobre_mi.html">Conoceme</a>
+           </li>
+           <li class="nav-item">
+           <a class="nav-link" href="./pages/horarios.html">Conoce los horarios</a>
+           <li class="nav-item">
+           <a class="nav-link " aria-current="page" href="./pages/planes.html">Conoce los planes</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="./pages/contacto.html">¿Dudas? Escribime</a>
+           </li>
+         </ul>
       
-      <div><h5>COPYRIGHT © | 2022 | LD.TRAINER | TODOS LOS DERECHOS RESERVADOS. DISEÑADO POR JOSÉ MARTICORENA</h5></div>
-   </div>
-  </nav>
+   
+    </nav>
+
+       <div class="text-center bg-black">
+       <h5>© 2022 Copyright: Creado por José Marticorena </h5>
+       </div>
+ </section>
+ </div>
+ </footer>
 
 
 
-</footer>
 </body>
 </html>
+
