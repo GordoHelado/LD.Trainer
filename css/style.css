@@ -37,6 +37,7 @@ h1,h2,h3{
 	font-weight: 800;
 }
 
+
 .toggler-colour{
 	border: 2px solid #2CB349;
 }
@@ -60,38 +61,6 @@ tr:hover{
 }
 
 
-.card_sobre_mi{
-	width: auto; 
-	height: auto;
-	margin: 20px 8px; 
-	border: solid 4px black; 
-	padding: 10px 6px;  
-	box-sizing: border-box;
-	text-align: center;
-	justify-content: center;
-	align-items: center;
-}
-.card_title{
-	text-align: center;
-}
-
-.card_image{
-	padding: 10px;
- 	display:block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 100px;
-}
-
-.form{
-	margin: 20px auto;
-	width: 80%;
-	padding: 10px;
-	border: 4px solid black;
-	border-radius: 4px;
-	margin-bottom: 8px;
-}
-
 label{
 	font-size: 12px;
 	margin: 0 4px;
@@ -106,92 +75,6 @@ input:focus , textarea:focus{
 border: 4px	solid #2CB349;
 }
 
-.main{
-	display: flex;
-	flex-direction: column;
-	margin: auto;
-	padding: 8px;
-	justify-content: center;
-	align-items: center;
-}
-
-.mainPresentation{
-	width: auto;
-	display: flex;
-	flex-direction: column;  
-	margin: 20px 4px;
-	border: solid 4px black; 
-	padding: 10px 6px;  
-	height: auto;
-	justify-content: center;
-	align-items: center;
-}
-
-.mainPresentation h2, h3, h4{
-	padding: 8px 4px;
-	text-align: center;
-	
-}
-
-.mainPresentation p{
-	padding: 8px 4px;
-	text-align: center;
-}
-
-h3{
-	padding: 8px 4px;
-	text-align: center;
-
-}
-.mainPresentation ul{
-	list-style: none;
-}
-
-.mainVideo{
-	width: auto; 
-	margin-top: 10px;
-	padding: 4px 2px;
-}
-
-.image_centrado{
- 	height: 120px;
-	display:block;
-  	margin-left: auto;
-  	margin-right: auto;
-}
-
-.inputRadio{
-	width: 25%;
-
-}
-
-
-
-
-
-.container__me{
-	
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-rows: auto;
-	grid-template-areas:"nav" "about_me" "footer" ;
-}
-
-#nav{
-	grid-area: nav;
-}
-
-#main__header{
-	
-}
-
-#card__me{
-	grid-area: about_me;
-}
-
-#footer{
-	grid-area: footer;
-}
 
 
 
