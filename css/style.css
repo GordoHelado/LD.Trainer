@@ -75,11 +75,6 @@ input:focus , textarea:focus{
 border: 4px	solid #2CB349;
 }
 
-
-
-
-
-
 @media (min-width: 768px){
 	
 	li,a,button{
