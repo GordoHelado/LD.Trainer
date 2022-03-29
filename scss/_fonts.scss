@@ -1,8 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+$fontMain:'Montserrat', sans-serif;
 
 $textXl: 2rem ;
 $textLg: 1.5rem ;
 $textMd: 1rem ;
 $textSm: 0.8rem ;
 
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a{
+	font-family: $fontMain;
+	color: $mainColor;
+}
+
+h1{
+	font-size: $textXl
+}
+
+h2,
+h3{
+	font-size: $textLg;
+}
+
+h4,
+h5{
+	font-size: $textMd;
+}
+
+p,
+a{
+	font-size: $textSm;
+}

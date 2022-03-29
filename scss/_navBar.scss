@@ -12,19 +12,17 @@ ul{
 			background-position: 100% 2px;
 			background-repeat: no-repeat;
 			transition: 1s;
+			&:hover{
+				color: $secondaryColor;
+				cursor: pointer;
+				font-weight: 800;
+ 				}
 
 		}
 	}
 }
 
- li {
- 	&:hover{
-	color: $secondaryColor;
-	cursor: pointer;
-	font-weight: 800;
- 	}
- }
-
+ 
 .toggler-colour{
 	border: 2px solid $secondaryColor;
 }
