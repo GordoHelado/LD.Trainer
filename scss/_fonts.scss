@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 $fontMain:'Montserrat', sans-serif;
 
-$textXl: 2rem ;
-$textLg: 1.5rem ;
-$textMd: 1rem ;
-$textSm: 0.8rem ;
+@mixin texto($font-size, $line-height){
+	font-size: $font-size;
+	line-height: $line-height;
+	padding: 2px;
+}
+
 
 h1,
 h2,
@@ -14,24 +16,24 @@ h5,
 p,
 a{
 	font-family: $fontMain;
-	color: $mainColor;
+	color: map-get($map: $paleta, $key:'uno');
 }
 
 h1{
-	font-size: $textXl
+	@include texto(2em, 2.2em)
 }
 
 h2,
 h3{
-	font-size: $textLg;
+	@include texto(1.5em, 1.9em)
 }
 
 h4,
 h5{
-	font-size: $textMd;
+	@include texto(1em, 1.7em)
 }
 
 p,
 a{
-	font-size: $textSm;
+	@include texto(0.8em, 1.4em)
 }

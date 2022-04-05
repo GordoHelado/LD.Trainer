@@ -7,16 +7,15 @@ table{
 
 
 thead{
-	background-color: $keyColor;
+	background-color: map-get($map: $paleta, $key:'tres');
 }
 
 th , td{
 	padding: 0;
-	border: solid 4px $keyColor;
+	border: solid 4px map-get($map: $paleta, $key:'tres');
 }
 
 tr{
 	&:hover{
-	background-color: $secondaryColor;
-	}
+	background-color: map-get($map: $paleta, $key:'dos');}
 }
