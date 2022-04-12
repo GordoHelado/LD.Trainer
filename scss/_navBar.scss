@@ -32,3 +32,8 @@ ul{
 .bg-black{
 	background-color: map-get($map: $paleta, $key:'tres');
 }
+
+.img-sm{
+	height: $imageSM;
+}
+
