@@ -40,6 +40,9 @@
 .video {
   width: 100% !important; }
 
+.border_r {
+  border-radius: 16px; }
+
 h1,
 h2,
 h3,
@@ -90,13 +93,13 @@ ul {
       ul li a:hover {
         color: #2CB349;
         cursor: pointer;
-        font-weight: 800; }
+        font-weight: 900; }
 
 .toggler-colour {
   border: 2px solid #2CB349; }
 
 .bg-black {
-  background-color: black; }
+  background-color: #343232; }
 
 .img-sm {
   height: 25px; }
@@ -107,11 +110,11 @@ table {
   margin: 20px auto; }
 
 thead {
-  background-color: black; }
+  background-color: #343232; }
 
 th, td {
   padding: 0;
-  border: solid 4px black; }
+  border: solid 4px #343232; }
 
 tr:hover {
   background-color: #2CB349; }
