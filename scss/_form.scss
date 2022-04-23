@@ -1,0 +1,29 @@
+label{
+	font-size: 1em;
+	
+}
+
+input{
+	margin-bottom: 16px;
+	width: $w-75;
+	padding: 8px;
+	}
+
+textarea{
+	margin-bottom: 16px;
+	width: $w-75;
+	padding: 8px;
+}
+
+input{
+	&:focus{
+		border: 4px	solid map-get($map: $paleta, $key:'dos');
+
+	}
+}
+
+textarea{
+	&:focus{
+		border: 4px	solid map-get($map: $paleta, $key:'dos');
+	}
+}

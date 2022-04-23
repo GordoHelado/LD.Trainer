@@ -1,0 +1,39 @@
+ul{
+	list-style: none;
+	
+	li{
+		padding: 2px;
+
+		a{
+	    	color: #0d6efd;
+     		display: block;
+    		padding: 0.5rem 1rem;
+   			text-decoration: none;
+    		font-weight: 300;
+			background: linear-gradient;
+			background-position: 100% 2px;
+			background-repeat: no-repeat;
+			transition: 1s;
+			&:hover{
+				color: map-get($map: $paleta, $key:'dos');
+				cursor: pointer;
+				font-weight: 900;
+ 				}
+
+		}
+	}
+}
+
+ 
+.toggler-colour{
+	border: 2px solid map-get($map: $paleta, $key:'dos');
+}
+
+.bg-black{
+	background-color: map-get($map: $paleta, $key:'tres');
+}
+
+.img-sm{
+	height: $imageSM;
+}
+

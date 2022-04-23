@@ -1,0 +1,21 @@
+table{
+	width: 100%;
+	text-align: center;
+	margin: 20px auto;
+	}
+
+
+
+thead{
+	background-color: map-get($map: $paleta, $key:'tres');
+}
+
+th , td{
+	padding: 0;
+	border: solid 4px map-get($map: $paleta, $key:'tres');
+}
+
+tr{
+	&:hover{
+	background-color: map-get($map: $paleta, $key:'dos');}
+}

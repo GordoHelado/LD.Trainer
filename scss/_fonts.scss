@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+$fontMain:'Montserrat', sans-serif;
+
+@mixin texto($font-size, $line-height){
+	font-size: $font-size;
+	line-height: $line-height;
+	padding: 2px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a{
+	font-family: $fontMain;
+	color: map-get($map: $paleta, $key:'uno');
+}
+
+h1{
+	@include texto(2em, 2.2em)
+}
+
+h2,
+h3{
+	@include texto(1.5em, 1.9em)
+}
+
+h4,
+h5{
+	@include texto(1em, 1.7em)
+}
+
+p,
+a{
+	@include texto(0.8em, 1.4em)
+}
